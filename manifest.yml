@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test-L
+  host: test-L
+  disk_quota: 1024M
+  services:
+  - Conversation-gk
+  - Text to Speech-bz
+  - Speech to Text-6u
